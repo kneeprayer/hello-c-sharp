@@ -3,27 +3,34 @@ This tutorial is based on [Microsort .Net Official Document](https://dotnet.micr
 
 # Download and install on Mac
 1. Install .Net core SDK using Homebrew
-    ```brew cask install dotnet-sdk
+    ```
+    brew cask install dotnet-sdk
     ```
 2. Check everything installed correctly.
-    ```dotnet
+    ```
+    dotnet
     ```
 3. Check your .Net Core SDK version.
-    ```dotnet --version
+    ```
+    dotnet --version
     ```
 4. Install C# Extensions on vscode.
     [C# for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
 
 # Create your app
 1. In your terminal, run the following commands:
-    ```dotnet new console -o helloWorldApp
-    cd helloWorldApp```
+    ```
+    dotnet new console -o helloWorldApp
+    cd helloWorldApp
+    ```
     ![tutorial create_your_app](https://dotnet.microsoft.com/images/tutorial-gifs/dotnet-hello-world-create-app.gif)
 
 2. Check initial C# program.
-    ```cat Program.cs
     ```
-    ```using System;
+    cat Program.cs
+    ```
+    ```
+    using System;
     
     namespace myApp
     {
@@ -39,17 +46,20 @@ This tutorial is based on [Microsort .Net Official Document](https://dotnet.micr
 
 # Run your app
 1. In your terminal, run the following command:
-    ```dotnet run
+    ```
+    dotnet run
     ```
     ![tutorial run_app](https://dotnet.microsoft.com/images/tutorial-gifs/dotnet-hello-world-run-app.gif)
 
 # Edit your code
 1. Open `Program.cs` in vscode and add a new line of code below the one that prints "Hello World!", like the following:
-    ```Console.WriteLine("Hello World!");
+    ```
+    Console.WriteLine("Hello World!");
     Console.WriteLine("The current time is " + DateTime.Now);
     ```
 2. Save the `Program.cs` file, and run your code again.
-    ```dotnet run
+    ```
+    dotnet run
     ```
 
 # Keep learning
