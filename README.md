@@ -47,5 +47,7 @@ This tutorial is based on [Microsort .Net Official Document](https://dotnet.micr
     ```dotnet run```
 
 # Keep learning
-If you want to keep learning general .NET skills, try our Introduction to C# tutorials.
+1. If you want to keep learning general .NET skills, try our Introduction to C# tutorials.
     [Manipulate integral and floating point numbers in C#](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/numbers-in-csharp-local)
+2. .NET Core using CLI.
+    [Get started with .NET Core on Windows/Linux/macOS using the command line]({)https://docs.microsoft.com/en-us/dotnet/core/tutorials/using-with-xplat-cli)
