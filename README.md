@@ -6,7 +6,9 @@ This tutorial based on [Microsort .Net Official Document](https://dotnet.microso
 `brew cask install dotnet-sdk`
 2. Check everything installed correctly.
 `dotnet`
-3. Install C# Extensions on vscode
+3. Check your .Net Core SDK version.
+`dotnet --version`
+4. Install C# Extensions on vscode
 [C# for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
 
 # Create your app
@@ -15,22 +17,8 @@ This tutorial based on [Microsort .Net Official Document](https://dotnet.microso
 `cd helloWorldApp`
 ![tutorial create_your_app](https://dotnet.microsoft.com/images/tutorial-gifs/dotnet-hello-world-create-app.gif)
 
-`cat << EOF > helloworld.cs`
-```using System;
-
-namespace myApp
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
-}
-EOF
-```
-`cat helloworld.cs`
+2. Check initial C# program.
+`cat Program.cs`
 ```using System;
 
 namespace myApp
@@ -51,11 +39,11 @@ namespace myApp
 ![tutorial run_app](https://dotnet.microsoft.com/images/tutorial-gifs/dotnet-hello-world-run-app.gif)
 
 # Edit your code
-1. Open `helloworld.cs` in vscode and add a new line of code below the one that prints "Hello World!", like the following:
+1. Open `Program.cs` in vscode and add a new line of code below the one that prints "Hello World!", like the following:
 ```Console.WriteLine("Hello World!");
 Console.WriteLine("The current time is " + DateTime.Now);
 ```
-2. Save the `helloworld.cs` file, and run your code again.
+2. Save the `Program.cs` file, and run your code again.
 `dotnet run`
 
 # Keep learning
